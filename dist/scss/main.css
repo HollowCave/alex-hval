@@ -198,7 +198,8 @@
   width: 100%; }
 
 .details {
-  margin: 6em 0 0 0; }
+  margin: 6em 0 0 0;
+  cursor: default; }
 
 .details > p {
   font-size: 1.5em; }
@@ -206,6 +207,44 @@
 .details > p > span {
   font-size: 1.25em;
   color: #4717F6; }
+
+@media (max-width: 725px) {
+  #background-img {
+    object-fit: cover; }
+  .links-row {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%); }
+  .main-content .buttons-row {
+    display: inline-grid;
+    margin: 3em 0; }
+  .about-container {
+    position: relative;
+    height: 100%;
+    width: 100%; }
+  .about, .experience, .contact {
+    background-color: #191427; }
+  .about-active, .experience-active, .contact-active {
+    width: 100vw; }
+  .about-title {
+    width: 26%; }
+  .bio {
+    top: 5%;
+    width: 85%; }
+  .certificates {
+    top: 30%; }
+  .cert-title {
+    width: 58%;
+    top: 25%; }
+  #certificate {
+    margin-top: 0; }
+  .work-projects {
+    justify-content: center; }
+  .magnanni-pic {
+    height: 175px; }
+  .job-description {
+    width: 375px; } }
 
 body {
   position: relative;
@@ -219,6 +258,7 @@ body {
   width: 100%; }
 
 .container {
+  overflow: hidden;
   position: relative;
   height: 100%;
   width: 100%;
