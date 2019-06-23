@@ -227,6 +227,8 @@
     background-color: #191427; }
   .about-active, .experience-active, .contact-active {
     width: 100vw; }
+  .about .back-btn {
+    z-index: 999; }
   .about-title {
     width: 26%; }
   .bio {
@@ -239,12 +241,26 @@
     top: 25%; }
   #certificate {
     margin-top: 0; }
+  .first-cert {
+    width: 100%; }
+  .second-cert {
+    position: absolute;
+    top: 22%; }
+  #sololearn {
+    margin: 0.65em 0 0 0; }
+  .job {
+    position: absolute;
+    margin: auto;
+    width: 100%; }
   .work-projects {
     justify-content: center; }
   .magnanni-pic {
     height: 175px; }
   .job-description {
-    width: 375px; } }
+    width: 375px; }
+  .project1 {
+    width: 100%;
+    right: 0; } }
 
 body {
   position: relative;
