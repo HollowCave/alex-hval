@@ -254,12 +254,14 @@
   .work-projects {
     justify-content: center; }
   .magnanni-pic {
-    height: 175px; }
+    height: 125px; }
   .job-description {
     width: 85%; }
   .project1 {
     width: 100%;
-    right: 0; } }
+    right: 0; }
+  .calculator-pic {
+    height: 125px; } }
 
 body {
   position: relative;
