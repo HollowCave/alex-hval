@@ -129,7 +129,7 @@
   top: 0;
   left: 0;
   font-size: 50px;
-  color: #191919;
+  color: #ffffff;
   text-decoration: none; }
 
 .work-projects {
@@ -232,25 +232,24 @@
   .about-title {
     width: 26%; }
   .bio {
-    top: 5%;
+    top: 11%;
     width: 85%; }
   .certificates {
-    top: 30%; }
+    top: 45%; }
   .cert-title {
     width: 58%;
-    top: 25%; }
+    top: 35%; }
   #certificate {
     margin-top: 0; }
   .first-cert {
     width: 100%; }
   .second-cert {
-    position: absolute;
-    top: 22%; }
+    display: none; }
   #sololearn {
     margin: 0.65em 0 0 0; }
   .job {
     position: absolute;
-    margin: auto;
+    margin: 40px auto 0 auto;
     width: 100%; }
   .work-projects {
     justify-content: center; }
@@ -348,3 +347,6 @@ body {
   padding: .5em .75em;
   margin: 0 1em;
   border-radius: 2%; }
+
+.back-btn {
+  padding: 0 0 0 15px; }
