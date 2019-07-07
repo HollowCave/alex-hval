@@ -235,10 +235,10 @@
     top: 11%;
     width: 85%; }
   .certificates {
-    top: 48%; }
+    top: 50%; }
   .cert-title {
     width: 58%;
-    top: 38%; }
+    top: 40%; }
   #certificate {
     margin-top: 0; }
   .first-cert {
@@ -256,7 +256,7 @@
   .magnanni-pic {
     height: 175px; }
   .job-description {
-    width: 100%; }
+    width: 85%; }
   .project1 {
     width: 100%;
     right: 0; } }
