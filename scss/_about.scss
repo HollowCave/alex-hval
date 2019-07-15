@@ -1,0 +1,102 @@
+.about {
+  position: absolute;
+  right: -60%;
+  background-color: $background-color;
+  z-index: 999; 
+  height: 100vh;
+  width: 60vw;
+}
+
+.about .back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  color: $text-color;
+  text-decoration: none;
+}
+
+.about-title {
+  font-family: $description-font;
+  color:  $text-color;
+  border-bottom: 2px solid #ffffff;
+  width: 12%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bio {
+  font-family: $description-font;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: .75px;
+  color:  $text-color;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cert-title {
+  font-family: $description-font;
+  color:  $text-color;
+  border-bottom: 2px solid #ffffff;
+  width: 16%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.certificates {
+  font-family: $description-font;
+  color:  #ffffff;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.first-cert {
+  width: 50%;
+}
+
+.certificate-issuer {
+  margin-bottom: 0;
+}
+
+.certificate-title {
+  margin-top: 0;
+}
+
+#certificate {
+  margin-top: 1em;
+  height: 15%;
+}
+
+#certificate:hover {
+  background-color: rgba(25, 20, 39, .5)
+}
+
+.second-cert {
+  width: 50%;
+}
+
+#sololearn {
+  list-style: none;
+  padding: 0;
+  margin: 1.65em 0 0 0;
+  line-height: 2;
+}
+
+#sololearn li a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+#sololearn li a:hover {
+  color: $hover-color;
+  transition: $standard-trans;
+}

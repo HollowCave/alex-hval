@@ -1,0 +1,105 @@
+@media (max-width: 968px) {
+  .links-row {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main-content .buttons-row {
+    display: grid;
+    margin: 3em 0;
+  }
+
+  .project1 {
+    margin: auto;
+    width: 100%;
+    right: unset;
+  }
+}
+
+@media (max-width: 668px) {
+  #background-img {
+    object-fit: cover;
+  }
+
+  .about-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .about, .experience, .contact {
+    background-color: rgba(25, 20, 39, 1);
+  }
+
+  .about-active, .experience-active, .contact-active {
+    width: 100vw;
+  }
+
+  .about .back-btn {
+    z-index: 999;
+  }
+
+  .about-title {
+    width: 26%;
+  }
+
+  .bio {
+    top: 11%;
+    width: 85%;
+  }
+
+  .certificates {
+    top: 50%;
+  }
+
+  .cert-title {
+    width: 58%;
+    top: 40%;
+  }
+
+  #certificate {
+    margin-top: 0;
+  }
+
+  .first-cert{
+    width: 100%;
+  }
+
+  .second-cert {
+    display: none;
+  }
+
+  #sololearn {
+    margin: 0.65em 0 0 0;
+  }
+
+  .job {
+    position: absolute;
+    margin: 25px auto 0 auto;
+    width: 100%;
+  }
+
+  .work-projects {
+    justify-content: center;
+  }
+
+  .magnanni-pic {
+    height: 125px;
+  }
+
+  .job-description {
+    width: 85%;
+  }
+
+  .project1 {
+    width: 100%;
+    right: 0;
+  }
+
+  .calculator-pic {
+    height: 125px;
+  }
+
+}

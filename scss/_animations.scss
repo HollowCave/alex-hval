@@ -1,0 +1,28 @@
+// All classes that are added to create animations
+
+.main-content {
+  transition: $slide-animation;
+}
+
+.main-content.main-active {
+  left: 20%;
+  transition: $slide-animation;
+}
+
+.about {
+  transition: $slide-animation;
+}
+
+.about.about-active, .experience.experience-active, .contact.contact-active {
+  right: 0;
+  transition: $slide-animation;
+}
+
+.experience {
+  transition: $slide-animation;
+}
+
+.contact {
+  transition: $slide-animation;
+}
+

@@ -1,0 +1,61 @@
+.experience {
+  position: absolute;
+  right: -60%;
+  background-color: rgba(25, 20, 39, 0.95);
+  z-index: 998; 
+  height: 100vh;
+  width: 60vw;
+}
+
+.experience .back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.work-projects {
+  display: grid;
+}
+
+.magnanni-pic {
+  height: 175px;
+}
+
+.calculator-pic {
+  height: 175px;
+}
+
+.job-title {
+  font-family: $description-font;
+  color: $text-color;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .8;
+  margin-bottom: 15px;
+  cursor: default;
+}
+
+.job-description {
+  font-family: $description-font;
+  color: $text-color;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.25;
+  width: 83%;
+  margin: auto;
+  cursor: default;
+}
+
+.project1 {
+  position: absolute;
+  right: 5%;
+  top: 55%;
+
+  height: auto;
+  width: 50%;
+}
+

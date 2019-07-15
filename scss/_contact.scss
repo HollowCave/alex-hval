@@ -1,0 +1,46 @@
+.contact {
+  position: absolute;
+  right: -60%;
+  background-color: $background-color;
+  z-index: 999; 
+  height: 100vh;
+  width: 60vw;
+}
+
+.contact .back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-title {
+  border-bottom: 2px solid #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact-container {
+  font-family: $main-font;
+  color:  $text-color;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+.details {
+  margin: 6em 0 0 0;
+  cursor: default;
+}
+
+.details > p {
+  font-size: 1.5em;
+}
+
+.details > p > span {
+  font-size: 1.25em;
+  color: $hover-color;
+}
