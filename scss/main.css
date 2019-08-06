@@ -10,22 +10,14 @@
 .about {
   transition: all 1s ease-out; }
 
-.about.about-active {
+.about.about-active, .experience.experience-active, .contact.contact-active {
   right: 0;
   transition: all 1s ease-out; }
 
 .experience {
   transition: all 1s ease-out; }
 
-.experience.experience-active {
-  right: 0;
-  transition: all 1s ease-out; }
-
 .contact {
-  transition: all 1s ease-out; }
-
-.contact.contact-active {
-  right: 0;
   transition: all 1s ease-out; }
 
 .about {
@@ -136,9 +128,12 @@
   display: grid; }
 
 .magnanni-pic {
-  height: 250px; }
+  height: 175px; }
 
 .calculator-pic {
+  height: 175px; }
+
+.movie-pic {
   height: 175px; }
 
 .job-title {
@@ -157,13 +152,20 @@
   font-size: 15px;
   text-align: center;
   line-height: 1.25;
-  width: 527px;
+  width: 58%;
   margin: auto;
   cursor: default; }
 
 .project1 {
   position: absolute;
   right: 5%;
+  top: 55%;
+  height: auto;
+  width: 50%; }
+
+.project2 {
+  position: absolute;
+  left: 5%;
   top: 55%;
   height: auto;
   width: 50%; }
@@ -208,17 +210,23 @@
   font-size: 1.25em;
   color: #4717F6; }
 
-@media (max-width: 725px) {
-  #background-img {
-    object-fit: cover; }
+@media (max-width: 968px) {
   .links-row {
     position: absolute;
     top: 37%;
     left: 50%;
     transform: translateX(-50%); }
   .main-content .buttons-row {
-    display: inline-grid;
+    display: grid;
     margin: 3em 0; }
+  .project1 {
+    margin: auto;
+    width: 100%;
+    right: unset; } }
+
+@media (max-width: 668px) {
+  #background-img {
+    object-fit: cover; }
   .about-container {
     position: relative;
     height: 100%;
