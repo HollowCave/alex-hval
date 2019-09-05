@@ -238,7 +238,8 @@
   .about, .experience, .contact {
     background-color: #191427; }
   .about-active, .experience-active, .contact-active {
-    width: 100vw; }
+    width: 100vw;
+    transform: translateX(0) !important; }
   .about .back-btn {
     z-index: 999; }
   #certificate {
