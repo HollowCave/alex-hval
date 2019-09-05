@@ -11,7 +11,7 @@
   transition: all 1s ease-out; }
 
 .about.about-active, .experience.experience-active, .contact.contact-active {
-  right: 0;
+  transform: translateX(67%);
   transition: all 1s ease-out; }
 
 .experience {
@@ -22,7 +22,7 @@
 
 .about {
   position: absolute;
-  right: -60%;
+  transform: translateX(167%);
   background-color: rgba(25, 20, 39, 0.95);
   z-index: 999;
   height: 100vh;
@@ -58,7 +58,9 @@
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: .75px;
-  color: #ffffff; }
+  color: #ffffff;
+  width: 350px;
+  margin: auto; }
 
 .cert-title-container {
   grid-column: 1/3;
@@ -115,7 +117,7 @@
 
 .experience {
   position: absolute;
-  right: -60%;
+  transform: translateX(167%);
   background-color: rgba(25, 20, 39, 0.95);
   z-index: 998;
   height: 100vh;
@@ -177,7 +179,7 @@
 
 .contact {
   position: absolute;
-  right: -60%;
+  transform: translateX(167%);
   background-color: rgba(25, 20, 39, 0.95);
   z-index: 999;
   height: 100vh;
