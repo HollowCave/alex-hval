@@ -227,9 +227,11 @@
     display: none; } }
 
 @media (max-width: 968px) {
+  .main-content.main-active {
+    left: 50%; }
   .main-content .buttons-row {
     display: grid;
-    margin: 3em 0; } }
+    margin: 1em 0; } }
 
 @media (max-width: 768px) {
   #background-img {
@@ -266,7 +268,8 @@
   .calculator-pic {
     height: 125px; }
   .project1 {
-    grid-row: 3/4; } }
+    grid-row: 3/4;
+    align-self: center; } }
 
 body {
   position: relative;
