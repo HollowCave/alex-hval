@@ -21,6 +21,7 @@
   transition: all 1s ease-out; }
 
 .about {
+  display: none;
   position: absolute;
   transform: translateX(167%);
   background-color: rgba(25, 20, 39, 0.95);
@@ -116,6 +117,7 @@
   transition: all 0.5s ease-out; }
 
 .experience {
+  display: none;
   position: absolute;
   transform: translateX(167%);
   background-color: rgba(25, 20, 39, 0.95);
@@ -178,6 +180,7 @@
   align-self: start; }
 
 .contact {
+  display: none;
   position: absolute;
   transform: translateX(167%);
   background-color: rgba(25, 20, 39, 0.95);

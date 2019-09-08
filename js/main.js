@@ -5,11 +5,8 @@ const button = document.querySelector('.button'),
       experience = document.querySelector('.experience'),
       contact = document.querySelector('.contact');
 
-about.style.display = 'none';
-experience.style.display = 'none';
-contact.style.display = 'none';
-
-document.addEventListener('load', () => {
+ // Show content after page load 
+document.addEventListener('DOMContentLoaded', () => {
   about.style.display = 'block';
   experience.style.display = 'block';
   contact.style.display = 'block';
