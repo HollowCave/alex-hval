@@ -164,7 +164,7 @@
   font-size: 15px;
   text-align: center;
   line-height: 1.25;
-  width: 58%;
+  width: 380px;
   margin: auto;
   cursor: default; }
 
@@ -224,11 +224,11 @@
   .project1 {
     grid-column: 1/3; }
   .project2 {
+    display: none; }
+  .second-cert {
     display: none; } }
 
 @media (max-width: 968px) {
-  .main-content.main-active {
-    left: 50%; }
   .main-content .buttons-row {
     display: grid;
     margin: 1em 0; } }
@@ -236,6 +236,8 @@
 @media (max-width: 768px) {
   #background-img {
     object-fit: cover; }
+  .main-content.main-active {
+    left: 50%; }
   .about-container {
     position: relative;
     height: 100%;
@@ -251,8 +253,6 @@
     margin-top: 0; }
   .first-cert {
     grid-column: 1/3; }
-  .second-cert {
-    display: none; }
   #sololearn {
     margin: 0.65em 0 0 0; }
   .job {
@@ -264,7 +264,7 @@
   .magnanni-pic {
     height: 125px; }
   .job-description {
-    width: 85%; }
+    width: 360px; }
   .calculator-pic {
     height: 125px; }
   .project1 {
